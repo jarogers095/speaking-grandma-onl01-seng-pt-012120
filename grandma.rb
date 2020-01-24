@@ -13,10 +13,10 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(words)
   if(words == words.upcase)
-    print "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   elsif(words == "I LOVE YOU GRANDMA!")
-    print "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   else
-    print "HUH? SPEAK UP, SONNY!"
+    return "HUH? SPEAK UP, SONNY!"
   end
 end
